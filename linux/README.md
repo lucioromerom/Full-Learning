@@ -18,8 +18,8 @@ Comandos Git útiles:
 . git branch -d nombre-rama : borras esa rama
 . git branch : ves las ramas 
 . git branch -M main : nombras la "master" como "main
-. git remote add origin https... : origin es el nombre remoto del repositorio, https(link del repositorio), conectar tu cuenta (por token?)
-. git push -u origin main : la primera vez, para guardarlo en github
+. git remote add origin https... : origin es el nombre remoto del repositorio, https(link del repositorio)
+. git push -u origin main : la primera vez, para guardarlo en github. "origin" por el nombre del repositorio, y pone tu usuario de github y en contraseña el token creado
 . git push : una vez hecho el push -u origin main, haces solo git push
 . git commit -am "mensaje" : es el git add . y el git commit -m "" en un solo comando
 . git status : para ver todos los archivos que se van a guardar/confirmar en el push
